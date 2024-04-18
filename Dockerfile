@@ -5,5 +5,3 @@ EXPOSE 80
 ENV testVar "Ciao Mondo"
 ADD test/ciaomondo.txt /var/test
 USER root
-ENTRYPOINT ["usr/sbin/httpd"]
-CMD ["-D","FOREGROUND"]
